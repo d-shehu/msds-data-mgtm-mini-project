@@ -1,20 +1,20 @@
 {
-  "title": "Katacoda Test 1",
-  "description": "This is my first test of Katacoda",
+  "title": "Neo4J Katacoda",
+  "description": "A simple walkthrough of getting Neo4J running inside of Katacoda",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "20",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Getting the prerequisites",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Setting up Neo4J",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: Creating a database ...",
         "text": "step3.md"
       }
     ],

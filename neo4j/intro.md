@@ -1,0 +1,1 @@
+In this scenario, we run a simple test which brings up a terminal and VSCode side by side. We will load neo4j docker image and run it as well.

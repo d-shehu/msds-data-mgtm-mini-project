@@ -1,4 +1,4 @@
-# Interactive Katacoda Scenarios
+# Neo4J for MSDS: An Interactive Katacoda Scenarios
 
 [![](http://shields.katacoda.com/katacoda/willrkr/count.svg)](https://www.katacoda.com/willrkr "Get your profile on Katacoda.com")
 
