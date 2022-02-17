@@ -1,5 +1,5 @@
 {
-  "title": "test1",
+  "title": "Katacoda Test 1",
   "description": "This is my first test of Katacoda",
   "difficulty": "Beginner",
   "time": "5",
@@ -25,7 +25,9 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
   "backend": {
     "imageid": "ubuntu:2004"
   }
