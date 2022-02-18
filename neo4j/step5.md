@@ -1,0 +1,1 @@
+And now we will initialize the Neo4J database and run some test queries.

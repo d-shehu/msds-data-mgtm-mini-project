@@ -1,8 +1,8 @@
 {
-  "title": "Neo4J Katacoda",
-  "description": "A simple walkthrough of getting Neo4J running inside of Katacoda",
-  "difficulty": "Beginner",
-  "time": "20",
+  "title": "Neo4J on Katacoda",
+  "description": "A walkthrough of getting Neo4J running inside of Katacoda",
+  "difficulty": "Intermediate",
+  "time": "25",
   "details": {
     "steps": [
       {
@@ -10,12 +10,20 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2: Setting up Neo4J",
+        "title": "Step 2: Setting up Neo4J server",
         "text": "step2.md"
       },
       {
-        "title": "Step 3: Creating a database ...",
+        "title": "Step 3: Setting up client side tooling",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4: Loading Neo4J browser",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5: Initializing Neo4J database",
+        "text": "step5.md"
       }
     ],
     "intro": {

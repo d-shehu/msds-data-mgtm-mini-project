@@ -1,10 +1,10 @@
 The 1st step is to prep the environment so we can run neo4j locally within Katacoda. 
-The Katacoda environment comes with Ubuntu 20.04 pre-loaded and Docker so we can 
-begin deploying Neo4j.
+The environment for this scenario comes with Ubuntu 20.04 sandboxed instance pre-loaded and Docker daemon so we can begin deploying Neo4j software easily. Please note that you are running
+as root in this environment and have control.
 
-Let's start by running `docker ps -a`{{execute}} to confirm Docker is configured. This is done by adding `execute` to the markdown code block.
-
-<pre>`echo "docker ps -a"`{{execute}}</pre>
+Let's start by checking Linux version `uname -a`{{execute}} and the flavor of the distro 'lsb_release -a'{{execute}}.
+Now confirm that Docker daemon is installed by running `docker ps -a`{{execute}}. Please note you can click on the link 
+to copy/paste the command into the terminal. Or otherwise type in the command in the terminal on the righ hand side.
 
 Please also see below for the output from Docker.
 
@@ -15,4 +15,3 @@ Please also see below for the output from Docker.
 </pre>
 
 
-More can be found at the scenario [on Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).

@@ -5,11 +5,10 @@ repository of Docker images.
 
 1. Let's start by running `docker pull neo4j`{{execute}} to grab the Neo4J image.
 
-<pre>`docker pull neo4j`{{execute}}</pre>
-
 Now let's run spin up the Docker container with Neo4J application, dependencies and database
-hosted within the container's context.  
+hosted within the container's context. Please note that this is being run in the background.
 
-2. Run `docker run -p7687:7687 neo4j`{{execute}} to grab the Neo4J image.
+2. Run `docker run -p7687:7687 -p7474:7474 -p7473:7473 neo4j &`{{execute}} to grab the Neo4J image.
 
-<pre>`docker run -p7687:7687 neo4j`{{execute}}</pre>
+Next step will be to install client side tools, namely cypher-shell.
+
