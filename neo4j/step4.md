@@ -4,7 +4,7 @@ should take you to the site.
 
 ## Generated Web Link
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:7687
+https://[[HOST_SUBDOMAIN]]-7687-[[KATACODA_HOST]].environments.katacoda.com
 
 
 ## Learn More
