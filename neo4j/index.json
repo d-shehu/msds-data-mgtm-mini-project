@@ -44,7 +44,7 @@
       },
       {
         "name": "Jupyter Notebook",
-        "port": 8081
+        "port": 8888
       }
     ],
     "uilayout": "terminal-iframe"
