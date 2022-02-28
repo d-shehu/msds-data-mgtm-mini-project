@@ -40,7 +40,7 @@
     "dashboards": [
       {
         "name": "Neo4j Browser",
-        "port": 7687
+        "port": 7474
       },
       {
         "name": "Jupyter Notebook",

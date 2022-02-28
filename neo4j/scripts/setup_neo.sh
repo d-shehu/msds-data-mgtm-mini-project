@@ -4,7 +4,7 @@
 mkdir -p $HOME/neo4j/data
 mkdir -p $HOME/neo4j/logs 
 mkdir -p $HOME/neo4j/import
-mkdir -p $HOME/neo4j/import
+mkdir -p $HOME/neo4j/plugins
 
 
 # Keeping it simple. This will just run the container without any
