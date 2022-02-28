@@ -9,7 +9,7 @@ mkdir -p $HOME/neo4j/plugins
 
 # Keeping it simple. This will just run the container without any
 # orchestration.
-docker run \
+docker run -d \
     --name testneo4j \
     -p7473:7473 \
     -p7474:7474 \
@@ -19,4 +19,4 @@ docker run \
     -v $HOME/neo4j/import:/var/lib/neo4j/import \
     -v $HOME/neo4j/plugins:/plugins \
     --env NEO4J_AUTH=neo4j/test \
-    neo4j:latest &
+    neo4j:latest
