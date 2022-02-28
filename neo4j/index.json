@@ -34,31 +34,17 @@
     }
   },
   "environment": {
+    "showide": true,
     "hideHiddenFiles": false,
     "showdashboard": true,
     "dashboards": [
       {
-        "name": "URL",
-        "href": "https://www.google.com"
-      },
-      {
-        "name": "Port 80",
-        "port": 8080
+        "name": "Neo4j Browser",
+        "port": 7687
       },
       {
         "name": "Jupyter Notebook",
-        "href": "https://[[HOST_SUBDOMAIN]]-7687-[[KATACODA_HOST]].environments.katacoda.com"
-      },
-      {
-        "name": "Neo4j Browser",
-        "href": "https://[[HOST_SUBDOMAIN]]-7687-[[KATACODA_HOST]].environments.katacoda.com"
-      }
-    ],
-    "terminals": [
-      {
-        "name": "Running Services ...",
-        "command": "docker stats",
-        "target": "host01"
+        "port": 8081
       }
     ],
     "uilayout": "terminal-iframe"
