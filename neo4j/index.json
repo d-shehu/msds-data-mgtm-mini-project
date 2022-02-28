@@ -61,7 +61,7 @@
         "target": "host01"
       }
     ],
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004",
