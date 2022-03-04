@@ -1,4 +1,4 @@
-## Neo4j CLI tools
+## Neo4j Client CLI Tools
 
 Now we've installed and are running Neo4J server and database as a background task,
 let's go ahead and install some useful utilities on the "client". i.e. on the instance

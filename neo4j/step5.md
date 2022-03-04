@@ -1,4 +1,4 @@
-## Jupyter
+## Setting up Jupyter
 
 Now we setup the Jupyter notebook and run the hello world Neo4J notebook. 
 

@@ -2,27 +2,31 @@
   "title": "Neo4J on Katacoda",
   "description": "A walkthrough of getting Neo4J running inside of Katacoda",
   "difficulty": "Intermediate",
-  "time": "25",
+  "time": "30",
   "details": {
     "steps": [
       {
-        "title": "Step 1: Getting the prerequisites",
+        "title": "Step 1: Bootstrapping the Environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2: Setting up Neo4J server",
+        "title": "Step 2: Downloading and Running Neo4J Server",
         "text": "step2.md"
       },
       {
-        "title": "Step 3: Setting up client side tooling",
+        "title": "Step 3: Neo4j Client CLI Tools",
         "text": "step3.md"
       },
       {
-        "title": "Step 4: Loading Neo4J browser",
+        "title": "Step 4: Neo4j Browser",
         "text": "step4.md"
       },
       {
-        "title": "Step 5: Initializing Neo4J database",
+        "title": "Step 5: Setting up Jupyter",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6: Hello Neo4j World",
         "text": "step5.md"
       }
     ],
