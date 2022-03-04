@@ -18,16 +18,16 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4: Neo4j Browser",
+        "title": "Step 4: Setting up Jupyter",
         "text": "step4.md"
       },
       {
-        "title": "Step 5: Setting up Jupyter",
+        "title": "Step 5: Hello Neo4j World",
         "text": "step5.md"
       },
       {
-        "title": "Step 6: Hello Neo4j World",
-        "text": "step5.md"
+        "title": "Step 6: Neo4j Browser and Katacoda",
+        "text": "step6.md"
       }
     ],
     "intro": {

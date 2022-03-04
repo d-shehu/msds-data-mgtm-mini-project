@@ -1,17 +1,14 @@
-## Example: Hello Neo4j World
+## Neo4j Browser (Optional)
 
-Now we've installed all the components for this lab. Let's do a "hello world"
-Neo4J script. First double check that Jupyter has come up. If not give it
-a few minutes.
+Now we've installed and are running Neo4J server and and client side tooling
+let's bring up a web browser with Neo4J dashboard. This is a bit tricky due
+to security restrictions. Run the following command to embed Firefox
+`./katacoda-scenarios/neo4j/scripts/setup_firefox.sh`{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com
+Give it a few minutes and the link below should take you to the embedded browser.
+Login with username neo4j and password test. Take a few minutes to look around.
 
-In this environment, we've included a "scripts" folder with a simple Python
-program call "helloneo.py". You can access it by clicking on the IDE and finding
-the file in the directory under /home/root/katacoda-scenarios/neo4j/scripts.
-
-Copy/paste the program into Jupyter notebook and run. You should be able to 
-confirm the graph elements were created. Checkout it out in Neo4J browser.
+https://[[HOST_SUBDOMAIN]]-5800-[[KATACODA_HOST]].environments.katacoda.com
 
 ## More About Katacoda
 

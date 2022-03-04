@@ -1,14 +1,14 @@
-## Neo4j Browser
+## Setting up Jupyter
 
-Now we've installed and are running Neo4J server and and client side tooling
-let's bring up a web browser with Neo4J dashboard. This is a bit tricky due
-to security restrictions. Run the following command to embed Firefox
-`./katacoda-scenarios/neo4j/scripts/setup_firefox.sh`{{execute}}
+Let's setup Jupyter so you can run some Neo4J scripts. 
 
-Give it a few minutes and the link below should take you to the embedded browser.
-Login with username neo4j and password test. Take a few minutes to look around.
+`./katacoda-scenarios/neo4j/scripts/setup_jupyter.sh`{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-5800-[[KATACODA_HOST]].environments.katacoda.com
+Give it a few minutes and click on the link below to see Jupyter's login screen.
 
+https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com
 
+To access go ahead and run the following to get the access token that you can
+copy paste into the browser.
 
+`docker exec -it testjupyter bash -c "jupyter notebook list"`{{execute}}

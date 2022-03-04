@@ -9,9 +9,10 @@ itself.
 `sudo apt install apt-transport-https ca-certificates curl software-properties-common`{{execute}}
 3. Add the GPG key for the Neo4J repository to unlock the repo
 `curl -fsSL https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -`{{execute}}
+4. Add the Neo4j package repo to your environment
 `sudo add-apt-repository "deb https://debian.neo4j.com stable 4.1"`{{execute}}
-4. Finally install the Neo4j package with binary and service. 
+5. Finally install the Neo4j locally 
 `sudo apt -y install neo4j`{{execute}}
 
-Remember, Neo4J should be running in the background. Verify by running `docker ps | grep neo4j`{{execute}}
+Remember, Neo4J should be running in the background. Verify by running `docker ps | grep neo4j`{{execute}}. You can access Neo4J via the Cypher shell. See the following .. 
 

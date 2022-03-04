@@ -1,15 +1,16 @@
-## Setting up Jupyter
+## Example: Hello Neo4j World
 
-Now we setup the Jupyter notebook and run the hello world Neo4J notebook. 
-
-`./katacoda-scenarios/neo4j/scripts/setup_jupyter.sh`{{execute}}
-
-Give it a few minutes and click on the link below to see Jupyter's login screen.
+Now we've installed all the components for this lab. Let's do a "hello world"
+Neo4J script. First double check that Jupyter has come up. If not give it
+a few minutes.
 
 https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com
 
-To access go ahead and run the following to get the access token that you can
-copy paste into the browser.
+In this environment, we've included a "scripts" folder with a simple Python
+program call "helloneo.py". You can access it by clicking on the IDE and finding
+the file in the directory under /home/root/katacoda-scenarios/neo4j/scripts.
 
-`docker exec -it testjupyter bash -c "jupyter notebook list"`{{execute}}
+Copy/paste the program into Jupyter notebook and run. You should be able to 
+confirm the graph elements were created. Checkout it out in Neo4J browser.
+
 
