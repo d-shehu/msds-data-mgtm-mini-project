@@ -11,4 +11,4 @@ https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com
 To access go ahead and run the following to get the access token that you can
 copy paste into the browser.
 
-`docker exec -it testjupyter bash -c "jupyter notebook list"`{{execute}}
+`docker exec -it testjupyter bash -c "jupyter server list"`{{execute}}
