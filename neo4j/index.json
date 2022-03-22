@@ -1,12 +1,13 @@
 {
   "title": "Neo4J on Katacoda",
-  "description": "A walkthrough of getting Neo4J running inside of Katacoda",
+  "description": "A lab showing how to run Neo4J/Jupyter Katacoda",
   "difficulty": "Intermediate",
   "time": "30",
   "details": {
     "steps": [
       {
         "title": "Step 1: Bootstrapping the Environment",
+        "courseData": "./scripts/fetch_neo4j.sh",
         "text": "step1.md"
       },
       {

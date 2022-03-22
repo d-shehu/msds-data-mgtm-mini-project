@@ -1,6 +1,8 @@
 #!/bin/bash
 
-docker pull jupyter/scipy-notebook:latest
+# This is technically not necessary since the lab pre-loads docker images
+# and the script below. Making this explicit as an FYI.
+docker pull jupyter/scipy-notebook
 
 mkdir -p $HOME/jupyter
 # Jupyter user ID is 100
@@ -11,7 +13,7 @@ docker run -d \
     --network host \
     -p 8888:8888 \
     -v $HOME/jupyter:/home/jovyan/work \
-    jupyter/scipy-notebook:latest
+    jupyter/scipy-notebook
 
 # Wait for Docker to come up
 until [ "`docker inspect -f {{.State.Running}} testjupyter`"=="true" ]

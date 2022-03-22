@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This is technically not necessary since the lab pre-loads docker images
+# and the script below. Making this explicit as an FYI.
 docker pull jlesage/firefox
 
 docker run -d \
