@@ -19,7 +19,7 @@ docker run -d \
     --name testjupyter \
     --network host \
     -p 8888:8888 \
-    -v $HOME/jupyter:/home/jovyan/work \
+    -v $HOME/jupyter:/home/jovyan \
     jupyter/scipy-notebook
 
 # Wait for it to come up

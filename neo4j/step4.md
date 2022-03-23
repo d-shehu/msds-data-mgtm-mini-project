@@ -18,4 +18,4 @@ For the 2nd queries let's grab all nodes, there's only the one. `MATCH(n) RETURN
 Since we will be using this database let's go ahead and cleanup by flushing the database. Run
 `MATCH(n) DETACH DELETE (n);`{{execute}}. 
 
-And finally exit cypher-shell, `MATCH(n) DETACH DELETE (n);`{{execute}}. Next step is to spin up Jupyter.
+And finally exit cypher-shell, `:exit`{{execute}}. Next step is to spin up Jupyter.

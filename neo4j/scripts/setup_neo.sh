@@ -10,6 +10,9 @@ mkdir -p $HOME/neo4j/logs
 mkdir -p $HOME/neo4j/import
 mkdir -p $HOME/neo4j/plugins
 
+# APOC plugin needed for the scripts
+wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.1.0.0/apoc-4.1.0.0-all.jar
+cp ./apoc-4.1.0.0-all.jar $HOME/neo4j/plugins/
 
 # Keeping it simple. This will just run the container without any
 # orchestration. Port 7687 is for Bolt (Cypher query) and 7474

@@ -7,11 +7,11 @@ itself.
 1. Update Ubuntu packages. Run `sudo apt update`{{execute}} and `sudo apt -y upgrade`{{execute}}. 
 2. Install Ubuntu networking tools and dependencies. 
 `sudo apt install apt-transport-https ca-certificates curl software-properties-common`{{execute}}
-3. Add the GPG key for the Neo4J repository to unlock the repo
+3. Add the GPG key to unlock the repo
 `curl -fsSL https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -`{{execute}}
 4. Add the Neo4j package repo to your environment
 `sudo add-apt-repository "deb https://debian.neo4j.com stable 4.1"`{{execute}}
-5. Finally install the Neo4j locally 
+5. Finally install the Neo4j CLI tools on the host (not container) 
 `sudo apt -y install neo4j`{{execute}}
 
 In the next step, let's test that server is running and CLI tools are functional. 
