@@ -2,7 +2,7 @@
   "title": "Neo4J on Katacoda",
   "description": "A lab showing how to run Neo4J/Jupyter Katacoda",
   "difficulty": "Intermediate",
-  "time": "30",
+  "time": "45",
   "details": {
     "steps": [
       {

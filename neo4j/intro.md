@@ -1,5 +1,5 @@
-Katacoda is a tool for creating and hosting interactive labs and tutorials to help introduce and train team members on a wide variety of topics. Each training session is called a scenario. A scenario plays out via a series of scripted steps which includes textual description and can also include an interactive terminal, code editor, notebook and web based tools.
+Katacoda is a tool for creating and hosting interactive labs & tutorials to help introduce new concepts and train team members on new tech and tooling. Labs run on fully managed, cloud hosted virtualized environments hosted by O'Reilly Media. A scenario plays out via a series of scripted steps which can include textual description, interactive commands and terminal, code & text editor, iframe for web apps, etc.
 
-In this scenario, we run a simple test which brings up a terminal and VSCode side by side. We will load Neo4j Docker image and run it as well. 
+In this specific scenario, we run will configure Neo4j Graph database as a server as well as CLI tools and demonstrate usage on CLI, via Python script and Jupyter notebooks.  
 
-More can be found on how to write your own scenarios at [Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).
+You can learn more about how to write scenarios here [Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).
