@@ -10,7 +10,7 @@ Let's start by running `docker pull neo4j`{{execute}} to grab the Neo4J image.
 Now spin up the Docker container with Neo4J application, dependencies and database
 hosted within the container's context. Please note that this will be run in the background.
 
-`./katacoda-scenarios/neo4j/scripts/setup_neo.sh`{{execute}}
+`$HOME/katacoda-scenarios/neo4j/scripts/setup_neo.sh`{{execute}}
 
 Check out the script using the IDE in the dashboard on the right panel. Please wait a few minutes for the image to come up as Katacoda can be slow. 
 

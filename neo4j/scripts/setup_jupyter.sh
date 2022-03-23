@@ -5,13 +5,14 @@
 docker pull jupyter/scipy-notebook
 
 mkdir -p $HOME/jupyter
+mkdir -p $HOME/jupyter/raw_data
 
 # Copy Python script and Jupyter notebook
-cp ./helloneo.py $HOME/jupyter
-cp ./Neo4j_MiniProject.ipynb $HOME/jupyter
+cp $HOME/katacoda-scenarios/neo4j/scripts/helloneo.py $HOME/jupyter
+cp $HOME/katacoda-scenarios/neo4j/scripts/Neo4j_MiniProject.ipynb $HOME/jupyter
 
-# Jupyter user's ID is 100 so let's make it so on the "host"
-chown -R 100:100 $HOME/jupyter
+# Jupyter user's ID is 1000 so let's make it so on the "host"
+chown -R 1000:100 $HOME/jupyter
 
 # Run the container
 docker run -d \
@@ -24,6 +25,7 @@ docker run -d \
 # Wait for it to come up
 until [ "`docker inspect -f {{.State.Running}} testjupyter`"=="true" ]
 do
+    echo "Waiting for Jupyter to start up ..."
     sleep 5
 done
 
