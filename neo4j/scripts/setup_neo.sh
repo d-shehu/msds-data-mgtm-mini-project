@@ -12,7 +12,8 @@ mkdir -p $HOME/neo4j/plugins
 
 
 # Keeping it simple. This will just run the container without any
-# orchestration.
+# orchestration. Port 7687 is for Bolt (Cypher query) and 7474
+# is for the interface.
 docker run -d \
     --name testneo4j \
     -p7473:7473 \

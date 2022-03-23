@@ -12,5 +12,7 @@ hosted within the container's context. Please note that this will be run in the 
 
 `./katacoda-scenarios/neo4j/scripts/setup_neo.sh`{{execute}}
 
-Check out the script using the IDE in the dashboard on the right panel. Please wait a few minutes for the image to come up as Katacoda can be slow. Next we will install client side tools, namely cypher-shell.
+Check out the script using the IDE in the dashboard on the right panel. Please wait a few minutes for the image to come up as Katacoda can be slow. 
+
+Next we will install client side tools, namely cypher-shell.
 

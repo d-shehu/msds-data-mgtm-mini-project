@@ -11,3 +11,6 @@ docker run -d \
     -v /docker/appdata/firefox:/config:rw \
     --shm-size 2g \
     jlesage/firefox
+
+# Try loading the page automatically
+docker exec firefox bash "firefox http://localhost:7474"

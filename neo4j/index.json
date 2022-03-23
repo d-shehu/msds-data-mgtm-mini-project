@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Step 1: Bootstrapping the Environment",
-        "courseData": "./scripts/fetch_neo4j.sh",
+        "courseData": "./scripts/pre-load.sh",
         "text": "step1.md"
       },
       {
@@ -19,16 +19,20 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4: Setting up Jupyter",
+        "title": "Step 4: Using Cypher-Shell",
         "text": "step4.md"
       },
       {
-        "title": "Step 5: Hello Neo4j World",
+        "title": "Step 5: Setting up Jupyter",
         "text": "step5.md"
       },
       {
-        "title": "Step 6: Neo4j Browser and Katacoda",
+        "title": "Step 6: Neo4j Examples with Python & Jupyter ",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7: Neo4j Browser and GUI Tools",
+        "text": "step7.md"
       }
     ],
     "intro": {

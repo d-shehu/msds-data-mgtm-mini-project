@@ -5,9 +5,15 @@
 docker pull jupyter/scipy-notebook
 
 mkdir -p $HOME/jupyter
-# Jupyter user ID is 100
-chown 100:100 $HOME/jupyter
 
+# Copy Python script and Jupyter notebook
+cp ./helloneo.py $HOME/jupyter
+cp ./Neo4j_MiniProject.ipynb $HOME/jupyter
+
+# Jupyter user's ID is 100 so let's make it so on the "host"
+chown -R 100:100 $HOME/jupyter
+
+# Run the container
 docker run -d \
     --name testjupyter \
     --network host \
@@ -15,7 +21,7 @@ docker run -d \
     -v $HOME/jupyter:/home/jovyan/work \
     jupyter/scipy-notebook
 
-# Wait for Docker to come up
+# Wait for it to come up
 until [ "`docker inspect -f {{.State.Running}} testjupyter`"=="true" ]
 do
     sleep 5
