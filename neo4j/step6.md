@@ -3,7 +3,7 @@
 Now we've installed all required components for this lab. Let's run the a Jupyter
 notebook that demonstrates how to create a graph database and run queries. 
 First double check that Jupyter has come up. If not give it a few minutes or try
-loading the page. The tab is labeled 'Jupyter Notebook' or click: 
+loading the page. The tab is labeled 'Jupyter' or click: 
 
 https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com
 

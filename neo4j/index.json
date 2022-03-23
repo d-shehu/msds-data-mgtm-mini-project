@@ -52,7 +52,7 @@
         "port": 5800
       },
       {
-        "name": "Jupyter Notebook",
+        "name": "Jupyter",
         "port": 8888
       }
     ],

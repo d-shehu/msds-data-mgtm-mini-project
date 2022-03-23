@@ -3,8 +3,7 @@
 Neo4J should already be running as a server, see previous steps. Neo4j's cypher-shell is similar
 to Mysql CLI or psql for Postgres. To access, run `cypher-shell -u neo4j -p test -d neo4j`{{execute}}. 
 
-Please note that a 'neo4j' account has been pre-configured with 'test' as the password. There is also a single 'neo4j' database. The freely available Community Edition of Neo4j is limited to a single database per environment. In a production setting, using Aura or enterprise edition these limitations. Also credentials would be obfuscated and stored as environment variables or via a
-secrets vault. 
+Please note that a 'neo4j' account has been pre-configured with 'test' as the password. There is also a single 'neo4j' database. The freely available Community Edition of Neo4j is limited to a single database per environment. In a production setting, using Aura or enterprise edition these limitations would be lifted. Also credentials would be obfuscated and stored as environment variables or via a secrets vault. 
 
 If successeful the terminal should be replaced with a cypher shell. Now run this query to create a couple of nodes and associate the nodes via relationship.
 
