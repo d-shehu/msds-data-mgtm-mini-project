@@ -4,7 +4,7 @@ With Neo4J database and server running as a background "service",let's go ahead 
 your local machine and the CLI tools will be used to access local or remote Neo4j server as with
 MySql or Postgres.
 
-1. Update Ubuntu packages. Run `sudo apt update`{{execute}} and `sudo apt -y upgrade`{{execute}}. 
+1. Update Ubuntu packages. Run `sudo apt update`{{execute}} 
 2. Install Ubuntu networking tools and dependencies. 
 `sudo apt install apt-transport-https ca-certificates curl software-properties-common`{{execute}}
 3. Add the GPG key to approve the repo
